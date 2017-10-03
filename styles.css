@@ -386,79 +386,79 @@ p {
 }
 
 
-@media all and (max-width: 480px){
+@media screen and (max-width: 480px){
   .site-name-link {
     font-size: 10px;
   }
 }
 
-@media all and (max-width: 480px){
+@media screen and (max-width: 480px){
   .single-page{
     padding-bottom:50px
     }
   }
 
-@media all and (max-width: 480px){
+@media screen and (max-width: 480px){
   .page-header{
     font-size:20px;margin-right:20px;margin-left:20px
     }
   }
 
-@media all and (max-width: 480px){
+@media screen and (max-width: 480px){
   .section-header{
     font-size:78px
     }
   }
 
-@media all and (max-width: 600px){
+@media screen and (max-width: 600px){
   .section-header{
     font-size:88px
     }
   }
 
-@media all and (max-width: 900px){
+@media screen and (max-width: 900px){
   .case-items{
     padding-right:30px;padding-left:30px
     }
   }
 
-@media all and (max-width: 600px){
+@media screen and (max-width: 600px){
   .case-items{
     padding-right: 0; padding-left: 0
   }
 }
 
-@media all and (max-width: 900px){
+@media screen and (max-width: 900px){
   .case-item{
     padding-top:40px;padding-left:35px;padding-right:35px
     }
   }
 
-@media all and (max-width: 800px){
+@media screen and (max-width: 800px){
   .case-item{
     flex:1 100%;min-height:initial
     }
   }
 
-@media all and (max-width: 480px){
+@media screen and (max-width: 480px){
   .case-item{
     padding-left:20px;padding-right:20px
     }
   }
 
-@media all and (max-width: 800px){
+@media screen and (max-width: 800px){
   .case-item-wide{
     min-height: initial; padding-bottom: 40px; text-align: left
     }
   }
 
-@media all and (max-width: 1000px){
+@media screen and (max-width: 1000px){
   .case-item-header{
     font-size:56px
     }
   }
 
-@media all and (max-width: 900px){
+@media screen and (max-width: 900px){
   .case-item-header{
     font-size:50px;max-width:400px
     }
@@ -467,97 +467,97 @@ p {
     }
   }
 
-@media all and (max-width: 480px){
+@media screen and (max-width: 480px){
   .case-item-header{
     font-size:42px
     }
   }
 
-@media all and (max-width: 800px){
+@media screen and (max-width: 800px){
   .case-item-wide .case-item-header{
     margin-top:0
     }
   }
 
-@media all and (max-width: 900px){
+@media screen and (max-width: 900px){
   .case-item-text,.case-item-wide .case-item-text{
     max-width:70%
     }
   }
 
-@media all and (max-width: 800px){
+@media screen and (max-width: 800px){
   .case-item-text,.case-item-wide .case-item-text{
     max-width:60%;padding-bottom:40px
     }
   }
 
-@media all and (max-width: 600px){
+@media screen and (max-width: 600px){
   .case-item-text,.case-item-wide .case-item-text{
     max-width:50%
     }
   }
 
-@media all and (max-width: 480px){
+@media screen and (max-width: 480px){
   .case-item-text{
     max-width:75%
     }
   }
 
-@media all and (max-width: 480px){
+@media screen and (max-width: 480px){
     .case-item-text-wide, .case-item-text-wide::before{
       max-width:75%; text-align: left; margin: 0
       }
     }
 
-@media all and (max-width: 600px){
+@media screen and (max-width: 600px){
     .case-item-text-wide, .case-item-text-wide::before{
       max-width:75%; text-align: left; margin: 0
       }
     }
 
 
-@media all and (max-width: 900px){
+@media screen and (max-width: 900px){
   .contact-info{
     padding-right:30px;padding-left:30px
     }
   }
 
-@media all and (max-width: 600px){
+@media screen and (max-width: 600px){
   .contact{
     padding-right:0;padding-left:0;padding-bottom:0
     }
   }
 
-@media all and (max-width: 900px){
+@media screen and (max-width: 900px){
   .contact{
     padding-right:0;padding-left:0;padding-bottom:0
     }
   }
 
-@media all and (max-width: 1200px){
+@media screen and (max-width: 1200px){
   .contact{
     padding-right:0;padding-left:0;padding-bottom:0
     }
   }
 
-@media all and (max-width: 600px){
+@media screen and (max-width: 600px){
   .contact .case-item-header{
       font-size: 40px; flex: 1 100%
       }
     }
 
-@media all and (max-width: 800px){
+@media screen and (max-width: 800px){
   .contact-info{
     height:auto
     }
   }
-@media all and (max-width: 480px){
+@media screen and (max-width: 480px){
   .contact-info{
     padding-top:30px;padding-right:0px;padding-left:30px
     }
   }
 
-@media all and (max-width: 800px){
+@media screen and (max-width: 800px){
   .contact-pic{
     width:100%;
     left:-50px;
@@ -569,13 +569,13 @@ p {
     }
   }
 
-@media all and (max-width: 600px){
+@media screen and (max-width: 600px){
   .contact-pic{
     height:350px
     }
   }
 
-@media all and (max-width: 600px){
+@media screen and (max-width: 600px){
   .project-item{
     width: 70%;
     margin: auto;
@@ -583,7 +583,7 @@ p {
   }
 }
 
-@media all and (max-width: 600px){
+@media screen and (max-width: 600px){
   .project-page-text{
     letter-spacing: 0.1em
   }
