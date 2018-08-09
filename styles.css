@@ -46,6 +46,7 @@ p {
 }
   a {
     text-decoration: none;
+    cursor: pointer;
   }
 
   h1 {
@@ -165,17 +166,22 @@ p {
 }
 
 .case-item-data {
-  background-color: #146D70;
-  color: #ffffff;
+  background-color: #2A9D8F;
+  color: #000000;
+}
+
+.case-item-local {
+  background-color: #E76F51;
+  color: #000000;
 }
 
 .case-item-product {
-  background-color: #EBC9B9;
+  background-color: #E9C46A;
   color: #000000
 }
 
 .case-item-visual {
-  background-color: #CAD8D7;
+  background-color: #ADA296;
   color: #000000;
 }
 
@@ -223,6 +229,20 @@ p {
 
 .case-item-text {
   max-width: 75%;
+    font-size: 13px;
+    line-height: 1.8em;
+    position: relative;
+    z-index: 10;
+    padding-top: 1em;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: translateZ(0);
+    font-family: 'open-sans',sans-serif;
+    letter-spacing: 0.07em;
+    font-weight: lighter;
+}
+
+.contact-text {
+  max-width: 80%;
     font-size: 12px;
     line-height: 1.8em;
     position: relative;
@@ -253,9 +273,9 @@ p {
 }
 
 .case-item-text-wide {
-  max-width: 35%;
-    font-size: 14px;
-    line-height: 1.5em;
+  max-width: 45%;
+    font-size: 13px;
+    line-height: 1.8em;
     position: relative;
     z-index: 10;
     padding-top: 1em;
@@ -293,7 +313,7 @@ p {
   max-width: 1150px;
     margin-top: 100px;
     margin-right: auto;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     padding: 40px;
 }
 
@@ -305,7 +325,7 @@ p {
     background-color: #1f4954;
     text-align: left;
     position: relative;
-    height: 550px;
+    height: 560px;
     box-sizing: border-box;
 }
 
